@@ -1,0 +1,29 @@
+{
+  "name": "openai-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot application using OpenAI API",
+  "main": "server-openai.js",
+  "scripts": {
+    "start": "node server-openai.js",
+    "dev": "nodemon server-openai.js",
+    "test": "node test-openai.js"
+  },
+  "keywords": [
+    "chatbot",
+    "openai",
+    "gpt",
+    "ai",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
